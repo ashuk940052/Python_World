@@ -4,9 +4,7 @@ print("Hello world")
 s = input("Name:- ")
 age = input('age :- ')
 print(s , age) """
-from operator import and_
 
-from sympy.strategies.branch import condition
 
 # num = input("number is : ")
 # print(float(num) - 5)
@@ -39,7 +37,7 @@ result3 = z < x + 2
 
 result4 = result1 or not  result2
 print(result4) 
-"""
+
 
 x = input("Name:")
 y = input("Age:")
@@ -50,3 +48,32 @@ elif x =="jeo":
     print("tera bhosda phat jainga :")
 else:
   print("Always do this : ")
+
+
+x = [ 4 , True , 'Hello']
+x.append("Prashant")
+x.extend([4,4,5,5,4,4,4,56,2,1])
+print(x.pop())
+print(x[1])
+
+
+
+for i in range(1 , 10 , 2):
+    print(i)
+# start , stop , step
+print("-----------------------------------------------------")
+
+for i in [3,4,24,5,65,3,2,3]:
+    print(i)
+
+print("-----------------------------------------------------")
+
+x = [3,4,24,5,65,3,2,3]
+for i in range(len(x)): 
+    print(x[i])
+"""
+
+x = [3,4,24,5,65,3,2,3]
+for i , element in enumerate(x):
+    print(i , element)
+
