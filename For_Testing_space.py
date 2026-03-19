@@ -167,8 +167,8 @@ mp1 = map(lambda i : i % 2 == 0 ,x)
 print(list(mp1))
 """
 
-print(12)
-print(13 , end=" ")
-print(15)
+# print(12)
+# print(13 , end=" ")
+# print(15)
 
 
