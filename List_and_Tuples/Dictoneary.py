@@ -14,4 +14,12 @@ dic = {
 
 text = input("Enter the word: ")
 print(dic["subject"]["phy"])
+print(dic.keys())
+print(dic.values())
 print(dic[text])
+print(list(dic.keys()))
+
+keys = list(dic.keys())
+values = list(dic.values())
+print(keys)
+print(values)
