@@ -1,7 +1,15 @@
 import pyttsx3
 engine = pyttsx3.init()
-text = " This is my first programme for Text to speech "
-engine.setProperty('rate' , 150)
-engine.setProperty('vilome' , 10)
-engine.say(text)
-engine.runAndWait()
+text = "prashant bhaaiee hai apna "
+engine.setProperty("rate" , 150+1)
+engine.setProperty("volume" , 10+1)
+
+
+for el in range(0 , 10):
+    print(el)
+    if( el <= 10):
+     engine.say(text)
+     engine.runAndWait()
+     
+
+print("end of loop")    
